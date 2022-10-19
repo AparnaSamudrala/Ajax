@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./test.css"></link>
+    </head>
+    <body>
+       
+        
+            <input type="text" placeholder="Enter first number" name="" id="num1" value=10>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter second number" name="" id="num2" value=20>
+            <br/><br/>
+            <input type="radio" id="add" name="arithmetic" value="add" checked>
+            <label for="add">Addition</label><br>
+            <input type="radio" id="sub" name="arithmetic" value="sub">
+            <label for="sub">Subtraction</label><br>
+            <input type="radio" id="mul" name="arithmetic" value="mul" >
+            <label for="mul">Multiplication</label><br>
+            <input type="radio" id="div" name="arithmetic" value="div">
+            <label for="div">Division</label>
+            <br/><br/><br/>
+            <button  onclick="calculate()">Calculate</button>
+            <p id="res" class="brd-green">30</p>
+            <p id="error" class="brd-red"></p>
+        
+        <script src="test.js"></script>
+    </body>
+
+</html>
